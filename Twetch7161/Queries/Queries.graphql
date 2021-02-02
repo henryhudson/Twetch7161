@@ -1,0 +1,13 @@
+
+query MyQuery {
+  allPosts(last: 100) {
+    edges {
+      node {
+        id
+        bContent
+        bContentType
+      }
+    }
+  }
+}
+

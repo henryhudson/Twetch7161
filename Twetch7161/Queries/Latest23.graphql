@@ -1,0 +1,25 @@
+query Latest23 {
+  allPosts(last: 23, condition: {}) {
+    edges {
+      node {
+        id
+        bContent
+        branchCount
+        likeCount
+        mapTwdata
+        mapUrl
+        mediaId
+        userId
+        youLiked
+        youBranched
+        mapComment
+        type
+        replyPostId
+        userByUserId {
+          name
+          icon
+        }
+      }
+    }
+  }
+}

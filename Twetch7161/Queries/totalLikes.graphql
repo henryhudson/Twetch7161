@@ -1,0 +1,5 @@
+query TotalLikes {
+  allLikes(filter: { userId: { equalTo: "7161" } }) {
+    totalCount
+  }
+}

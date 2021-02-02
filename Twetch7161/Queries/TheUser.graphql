@@ -1,0 +1,7 @@
+query TheUser {
+  me {
+    id
+  }
+}
+
+

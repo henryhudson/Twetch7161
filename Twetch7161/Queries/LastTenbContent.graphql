@@ -1,0 +1,9 @@
+query Last10bContent {
+  allPosts(last: 10) {
+    edges {
+      node {
+        bContent
+      }
+    }
+  }
+}

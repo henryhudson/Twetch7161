@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct Twetch7161App: App {
+    @StateObject var notificationCenter = NotificationCenter()
+    @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //TestingForEachForAllResponseData()
+            //NotificationStuff(notificationCenter: notificationCenter)
+            //ContentView()
+            TestingForEachForAllResponseData()
         }
     }
 }

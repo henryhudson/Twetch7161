@@ -1,0 +1,41 @@
+//
+//  TwetchSearch.swift
+//  Twetch7161
+//
+//  Created by Henry Hudson on 02/09/2020.
+//
+
+import SwiftUI
+
+struct TwetchSearch: View {
+    @State private var searchQuery = ""
+    var body: some View {
+        ZStack {
+            Color.blue
+            
+            
+            VStack(spacing: 0) {
+                Image("TwetchLogo")
+                    .resizable()
+                    .colorInvert()
+                    .scaledToFit()
+                
+                TextField("⌕", text: $searchQuery)
+                    .textFieldStyle(RoundedBorderTextFieldStyle() )
+                    .offset(x: 0, y: -UIScreen.main.bounds.height * 0.1)
+                    .padding()
+
+                    
+                    
+                    
+            }
+        }
+        .edgesIgnoringSafeArea(.all)
+    }
+}
+
+struct TwetchSearch_Previews: PreviewProvider {
+    static var previews: some View {
+        TwetchSearch()
+    }
+}

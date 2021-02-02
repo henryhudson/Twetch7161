@@ -1,0 +1,11 @@
+
+query MeSlideScreen {
+  me {
+    icon
+    id
+    name
+    followerCount
+    followingCount
+  }
+}
+

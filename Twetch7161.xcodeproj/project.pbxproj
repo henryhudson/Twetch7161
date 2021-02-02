@@ -3,16 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E065B8824F200910038C56E /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E065B8724F200910038C56E /* ModalView.swift */; };
 		4E33706024AC2068007FA70F /* Twetch7161App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33705F24AC2068007FA70F /* Twetch7161App.swift */; };
 		4E33706224AC2068007FA70F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33706124AC2068007FA70F /* ContentView.swift */; };
 		4E33706424AC206A007FA70F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E33706324AC206A007FA70F /* Assets.xcassets */; };
 		4E33706724AC206A007FA70F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E33706624AC206A007FA70F /* Preview Assets.xcassets */; };
 		4E33707224AC206A007FA70F /* Twetch7161Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33707124AC206A007FA70F /* Twetch7161Tests.swift */; };
 		4E33707D24AC206A007FA70F /* Twetch7161UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33707C24AC206A007FA70F /* Twetch7161UITests.swift */; };
+		4E33708C24AC2085007FA70F /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4E33708B24AC2085007FA70F /* PureSwiftUI */; };
+		4E33709824AC2106007FA70F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33708D24AC2106007FA70F /* HeaderView.swift */; };
+		4E33709924AC2106007FA70F /* TwetchersProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33708F24AC2106007FA70F /* TwetchersProfileView.swift */; };
+		4E33709A24AC2106007FA70F /* TwetchersUserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33709024AC2106007FA70F /* TwetchersUserName.swift */; };
+		4E33709B24AC2106007FA70F /* TwetchButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33709124AC2106007FA70F /* TwetchButtons.swift */; };
+		4E33709C24AC2106007FA70F /* TwetchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33709224AC2106007FA70F /* TwetchView.swift */; };
+		4E33709D24AC2106007FA70F /* TwetchBoarderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33709324AC2106007FA70F /* TwetchBoarderView.swift */; };
+		4E33709E24AC2106007FA70F /* NewTwetchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33709424AC2106007FA70F /* NewTwetchView.swift */; };
+		4E33709F24AC2106007FA70F /* NewTwetchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33709524AC2106007FA70F /* NewTwetchButton.swift */; };
+		4E3370A024AC2106007FA70F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33709624AC2106007FA70F /* Constants.swift */; };
+		4E3370A124AC2106007FA70F /* HeaderButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33709724AC2106007FA70F /* HeaderButtons.swift */; };
+		4E3370A324AC2276007FA70F /* Design2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3370A224AC2276007FA70F /* Design2.swift */; };
+		4E41A4772506E40C00CA03E9 /* MeSlideScreen.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4E41A4762506E40C00CA03E9 /* MeSlideScreen.graphql */; };
+		4E41A4792506E56000CA03E9 /* MeSlideScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41A4782506E56000CA03E9 /* MeSlideScreen.swift */; };
+		4E72D13425150425002BE3A3 /* NotificationStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D13325150425002BE3A3 /* NotificationStuff.swift */; };
+		4E7336C224C0AEFD00941877 /* Logos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7336C124C0AEFD00941877 /* Logos.swift */; };
+		4E76B5EB24FEFDD000132F52 /* NewButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5EA24FEFDD000132F52 /* NewButtonStyle.swift */; };
+		4E76B63125003F6C00132F52 /* TwetchSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B63025003F6C00132F52 /* TwetchSearch.swift */; };
+		4E78CC1725C8E20400EB3409 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E78CC1625C8E20400EB3409 /* ViewExtensions.swift */; };
+		4E8834B424B8A9A000D7F7CE /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8834B324B8A9A000D7F7CE /* RemoteImage.swift */; };
+		4EA69A1524E45934002E650C /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA69A1424E45934002E650C /* SlideMenu.swift */; };
+		4EB4EC4F2502EFD200FC0321 /* TestingForEachForAllResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4EC4E2502EFD200FC0321 /* TestingForEachForAllResponseData.swift */; };
+		4EB99F3124F0615D00883C6F /* LastTenbContent.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4EB99F3024F0615D00883C6F /* LastTenbContent.graphql */; };
+		4ED4014924EAD338005E0E3A /* ApolloCodegenLib in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED4014824EAD338005E0E3A /* ApolloCodegenLib */; };
+		4ED4014B24EAD338005E0E3A /* ApolloSQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED4014A24EAD338005E0E3A /* ApolloSQLite */; };
+		4ED4014D24EAD338005E0E3A /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED4014C24EAD338005E0E3A /* ApolloWebSocket */; };
+		4ED4014F24EAD338005E0E3A /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED4014E24EAD338005E0E3A /* Apollo */; };
+		4ED4015124EAD338005E0E3A /* ApolloCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4ED4015024EAD338005E0E3A /* ApolloCore */; };
+		4ED4015524EAD70E005E0E3A /* Queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4ED4015424EAD70E005E0E3A /* Queries.graphql */; };
+		4ED4015824EADB92005E0E3A /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 4ED4015724EADB92005E0E3A /* schema.json */; };
+		4ED4015A24EADCDA005E0E3A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4015924EADCDA005E0E3A /* API.swift */; };
+		4ED4015C24EADD30005E0E3A /* TestingApollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4015B24EADD30005E0E3A /* TestingApollo.swift */; };
+		4ED4015E24EADDC4005E0E3A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4015D24EADDC4005E0E3A /* Network.swift */; };
+		4ED4016024EB4069005E0E3A /* totalLikes.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4ED4015F24EB4069005E0E3A /* totalLikes.graphql */; };
+		4EDB867124F8463100C72F82 /* Latest23.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4EDB867024F8463100C72F82 /* Latest23.graphql */; };
+		4EDB867324F848B900C72F82 /* Latest23.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB867224F848B800C72F82 /* Latest23.swift */; };
+		4EE43C0124F0571A00D98640 /* LatestTwetches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE43C0024F0571A00D98640 /* LatestTwetches.swift */; };
+		4EFE0B5E250A9D9100BBC627 /* TheUser.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4EFE0B5D250A9D9000BBC627 /* TheUser.graphql */; };
+		4EFE0B60250A9EC000BBC627 /* TheUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE0B5F250A9EC000BBC627 /* TheUser.swift */; };
+		4EFE0B63250AA64F00BBC627 /* TwetchNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE0B62250AA64F00BBC627 /* TwetchNotifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E065B8724F200910038C56E /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		4E33705C24AC2068007FA70F /* Twetch7161.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twetch7161.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E33705F24AC2068007FA70F /* Twetch7161App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twetch7161App.swift; sourceTree = "<group>"; };
 		4E33706124AC2068007FA70F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +87,40 @@
 		4E33707824AC206A007FA70F /* Twetch7161UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Twetch7161UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E33707C24AC206A007FA70F /* Twetch7161UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twetch7161UITests.swift; sourceTree = "<group>"; };
 		4E33707E24AC206A007FA70F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E33708D24AC2106007FA70F /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4E33708F24AC2106007FA70F /* TwetchersProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwetchersProfileView.swift; sourceTree = "<group>"; };
+		4E33709024AC2106007FA70F /* TwetchersUserName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwetchersUserName.swift; sourceTree = "<group>"; };
+		4E33709124AC2106007FA70F /* TwetchButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwetchButtons.swift; sourceTree = "<group>"; };
+		4E33709224AC2106007FA70F /* TwetchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwetchView.swift; sourceTree = "<group>"; };
+		4E33709324AC2106007FA70F /* TwetchBoarderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwetchBoarderView.swift; sourceTree = "<group>"; };
+		4E33709424AC2106007FA70F /* NewTwetchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTwetchView.swift; sourceTree = "<group>"; };
+		4E33709524AC2106007FA70F /* NewTwetchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTwetchButton.swift; sourceTree = "<group>"; };
+		4E33709624AC2106007FA70F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4E33709724AC2106007FA70F /* HeaderButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderButtons.swift; sourceTree = "<group>"; };
+		4E3370A224AC2276007FA70F /* Design2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design2.swift; sourceTree = "<group>"; };
+		4E41A4762506E40C00CA03E9 /* MeSlideScreen.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = MeSlideScreen.graphql; sourceTree = "<group>"; };
+		4E41A4782506E56000CA03E9 /* MeSlideScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeSlideScreen.swift; sourceTree = "<group>"; };
+		4E72D13325150425002BE3A3 /* NotificationStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationStuff.swift; sourceTree = "<group>"; };
+		4E7336C124C0AEFD00941877 /* Logos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logos.swift; sourceTree = "<group>"; };
+		4E76B5EA24FEFDD000132F52 /* NewButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewButtonStyle.swift; sourceTree = "<group>"; };
+		4E76B63025003F6C00132F52 /* TwetchSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwetchSearch.swift; sourceTree = "<group>"; };
+		4E78CC1625C8E20400EB3409 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		4E8834B324B8A9A000D7F7CE /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		4EA69A1424E45934002E650C /* SlideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
+		4EB4EC4E2502EFD200FC0321 /* TestingForEachForAllResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingForEachForAllResponseData.swift; sourceTree = "<group>"; };
+		4EB99F3024F0615D00883C6F /* LastTenbContent.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LastTenbContent.graphql; sourceTree = "<group>"; };
+		4ED4015424EAD70E005E0E3A /* Queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Queries.graphql; sourceTree = "<group>"; };
+		4ED4015724EADB92005E0E3A /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		4ED4015924EADCDA005E0E3A /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4ED4015B24EADD30005E0E3A /* TestingApollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingApollo.swift; sourceTree = "<group>"; };
+		4ED4015D24EADDC4005E0E3A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		4ED4015F24EB4069005E0E3A /* totalLikes.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = totalLikes.graphql; sourceTree = "<group>"; };
+		4EDB867024F8463100C72F82 /* Latest23.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Latest23.graphql; sourceTree = "<group>"; };
+		4EDB867224F848B800C72F82 /* Latest23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latest23.swift; sourceTree = "<group>"; };
+		4EE43C0024F0571A00D98640 /* LatestTwetches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestTwetches.swift; sourceTree = "<group>"; };
+		4EFE0B5D250A9D9000BBC627 /* TheUser.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = TheUser.graphql; sourceTree = "<group>"; };
+		4EFE0B5F250A9EC000BBC627 /* TheUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUser.swift; sourceTree = "<group>"; };
+		4EFE0B62250AA64F00BBC627 /* TwetchNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwetchNotifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +128,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED4014F24EAD338005E0E3A /* Apollo in Frameworks */,
+				4E33708C24AC2085007FA70F /* PureSwiftUI in Frameworks */,
+				4ED4015124EAD338005E0E3A /* ApolloCore in Frameworks */,
+				4ED4014D24EAD338005E0E3A /* ApolloWebSocket in Frameworks */,
+				4ED4014924EAD338005E0E3A /* ApolloCodegenLib in Frameworks */,
+				4ED4014B24EAD338005E0E3A /* ApolloSQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +154,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E0AEE6D25092B8F00958992 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4E41A4782506E56000CA03E9 /* MeSlideScreen.swift */,
+				4EFE0B5F250A9EC000BBC627 /* TheUser.swift */,
+				4EA69A1424E45934002E650C /* SlideMenu.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		4E0AEE6E25092C7000958992 /* LatestTwetches */ = {
+			isa = PBXGroup;
+			children = (
+				4EB4EC4E2502EFD200FC0321 /* TestingForEachForAllResponseData.swift */,
+				4EE43C0024F0571A00D98640 /* LatestTwetches.swift */,
+				4EDB867224F848B800C72F82 /* Latest23.swift */,
+			);
+			path = LatestTwetches;
+			sourceTree = "<group>";
+		};
 		4E33705324AC2068007FA70F = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +197,28 @@
 		4E33705E24AC2068007FA70F /* Twetch7161 */ = {
 			isa = PBXGroup;
 			children = (
+				4ED4015924EADCDA005E0E3A /* API.swift */,
+				4ED4015B24EADD30005E0E3A /* TestingApollo.swift */,
+				4E065B8724F200910038C56E /* ModalView.swift */,
+				4ED4015D24EADDC4005E0E3A /* Network.swift */,
 				4E33705F24AC2068007FA70F /* Twetch7161App.swift */,
 				4E33706124AC2068007FA70F /* ContentView.swift */,
+				4E33709624AC2106007FA70F /* Constants.swift */,
+				4E33709724AC2106007FA70F /* HeaderButtons.swift */,
+				4E76B63025003F6C00132F52 /* TwetchSearch.swift */,
+				4E76B5EA24FEFDD000132F52 /* NewButtonStyle.swift */,
+				4EFE0B61250AA39100BBC627 /* Notifications */,
+				4E0AEE6E25092C7000958992 /* LatestTwetches */,
+				4E0AEE6D25092B8F00958992 /* SideMenu */,
+				4E33708D24AC2106007FA70F /* HeaderView.swift */,
+				4E3370A224AC2276007FA70F /* Design2.swift */,
+				4ED4015724EADB92005E0E3A /* schema.json */,
+				4ED4016124EB40FE005E0E3A /* Queries */,
+				4E8834B224B8A98500D7F7CE /* Loading Images, gifs, videos */,
+				4E33708E24AC2106007FA70F /* Twetches */,
+				4E78CC1525C8E19A00EB3409 /* Extensions */,
 				4E33706324AC206A007FA70F /* Assets.xcassets */,
+				4E7336C124C0AEFD00941877 /* Logos.swift */,
 				4E33706824AC206A007FA70F /* Info.plist */,
 				4E33706524AC206A007FA70F /* Preview Content */,
 			);
@@ -130,6 +251,58 @@
 			path = Twetch7161UITests;
 			sourceTree = "<group>";
 		};
+		4E33708E24AC2106007FA70F /* Twetches */ = {
+			isa = PBXGroup;
+			children = (
+				4E33708F24AC2106007FA70F /* TwetchersProfileView.swift */,
+				4E33709024AC2106007FA70F /* TwetchersUserName.swift */,
+				4E33709124AC2106007FA70F /* TwetchButtons.swift */,
+				4E33709224AC2106007FA70F /* TwetchView.swift */,
+				4E33709324AC2106007FA70F /* TwetchBoarderView.swift */,
+				4E33709424AC2106007FA70F /* NewTwetchView.swift */,
+				4E33709524AC2106007FA70F /* NewTwetchButton.swift */,
+			);
+			path = Twetches;
+			sourceTree = "<group>";
+		};
+		4E78CC1525C8E19A00EB3409 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E78CC1625C8E20400EB3409 /* ViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4E8834B224B8A98500D7F7CE /* Loading Images, gifs, videos */ = {
+			isa = PBXGroup;
+			children = (
+				4E8834B324B8A9A000D7F7CE /* RemoteImage.swift */,
+			);
+			path = "Loading Images, gifs, videos";
+			sourceTree = "<group>";
+		};
+		4ED4016124EB40FE005E0E3A /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				4ED4015F24EB4069005E0E3A /* totalLikes.graphql */,
+				4E41A4762506E40C00CA03E9 /* MeSlideScreen.graphql */,
+				4EFE0B5D250A9D9000BBC627 /* TheUser.graphql */,
+				4EDB867024F8463100C72F82 /* Latest23.graphql */,
+				4ED4015424EAD70E005E0E3A /* Queries.graphql */,
+				4EB99F3024F0615D00883C6F /* LastTenbContent.graphql */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		4EFE0B61250AA39100BBC627 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				4EFE0B62250AA64F00BBC627 /* TwetchNotifications.swift */,
+				4E72D13325150425002BE3A3 /* NotificationStuff.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +310,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E33708124AC206A007FA70F /* Build configuration list for PBXNativeTarget "Twetch7161" */;
 			buildPhases = (
+				4ED4015624EAD890005E0E3A /* Generate apollo Twetch API */,
 				4E33705824AC2068007FA70F /* Sources */,
 				4E33705924AC2068007FA70F /* Frameworks */,
 				4E33705A24AC2068007FA70F /* Resources */,
@@ -146,6 +320,14 @@
 			dependencies = (
 			);
 			name = Twetch7161;
+			packageProductDependencies = (
+				4E33708B24AC2085007FA70F /* PureSwiftUI */,
+				4ED4014824EAD338005E0E3A /* ApolloCodegenLib */,
+				4ED4014A24EAD338005E0E3A /* ApolloSQLite */,
+				4ED4014C24EAD338005E0E3A /* ApolloWebSocket */,
+				4ED4014E24EAD338005E0E3A /* Apollo */,
+				4ED4015024EAD338005E0E3A /* ApolloCore */,
+			);
 			productName = Twetch7161;
 			productReference = 4E33705C24AC2068007FA70F /* Twetch7161.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +399,10 @@
 				Base,
 			);
 			mainGroup = 4E33705324AC2068007FA70F;
+			packageReferences = (
+				4E33708A24AC2085007FA70F /* XCRemoteSwiftPackageReference "pure-swift-ui" */,
+				4ED4014724EAD338005E0E3A /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = 4E33705D24AC2068007FA70F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +419,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EFE0B5E250A9D9100BBC627 /* TheUser.graphql in Resources */,
+				4EB99F3124F0615D00883C6F /* LastTenbContent.graphql in Resources */,
+				4ED4015824EADB92005E0E3A /* schema.json in Resources */,
 				4E33706724AC206A007FA70F /* Preview Assets.xcassets in Resources */,
+				4ED4016024EB4069005E0E3A /* totalLikes.graphql in Resources */,
+				4EDB867124F8463100C72F82 /* Latest23.graphql in Resources */,
+				4E41A4772506E40C00CA03E9 /* MeSlideScreen.graphql in Resources */,
+				4ED4015524EAD70E005E0E3A /* Queries.graphql in Resources */,
 				4E33706424AC206A007FA70F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +447,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4ED4015624EAD890005E0E3A /* Generate apollo Twetch API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate apollo Twetch API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\nif [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\necho >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\nexit 1\nfi\nDERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\nif [ -z \"${SCRIPT_PATH}\" ]; then\necho >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\nexit 1\nfi\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E33705824AC2068007FA70F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E065B8824F200910038C56E /* ModalView.swift in Sources */,
+				4EFE0B63250AA64F00BBC627 /* TwetchNotifications.swift in Sources */,
+				4ED4015C24EADD30005E0E3A /* TestingApollo.swift in Sources */,
+				4E33709E24AC2106007FA70F /* NewTwetchView.swift in Sources */,
+				4EB4EC4F2502EFD200FC0321 /* TestingForEachForAllResponseData.swift in Sources */,
+				4EA69A1524E45934002E650C /* SlideMenu.swift in Sources */,
+				4E3370A024AC2106007FA70F /* Constants.swift in Sources */,
+				4E3370A124AC2106007FA70F /* HeaderButtons.swift in Sources */,
+				4E72D13425150425002BE3A3 /* NotificationStuff.swift in Sources */,
+				4E41A4792506E56000CA03E9 /* MeSlideScreen.swift in Sources */,
+				4E33709F24AC2106007FA70F /* NewTwetchButton.swift in Sources */,
+				4E33709A24AC2106007FA70F /* TwetchersUserName.swift in Sources */,
 				4E33706224AC2068007FA70F /* ContentView.swift in Sources */,
+				4E76B5EB24FEFDD000132F52 /* NewButtonStyle.swift in Sources */,
+				4EFE0B60250A9EC000BBC627 /* TheUser.swift in Sources */,
+				4E76B63125003F6C00132F52 /* TwetchSearch.swift in Sources */,
+				4E33709B24AC2106007FA70F /* TwetchButtons.swift in Sources */,
+				4E33709D24AC2106007FA70F /* TwetchBoarderView.swift in Sources */,
+				4EE43C0124F0571A00D98640 /* LatestTwetches.swift in Sources */,
+				4ED4015E24EADDC4005E0E3A /* Network.swift in Sources */,
+				4E33709824AC2106007FA70F /* HeaderView.swift in Sources */,
+				4E8834B424B8A9A000D7F7CE /* RemoteImage.swift in Sources */,
+				4E7336C224C0AEFD00941877 /* Logos.swift in Sources */,
+				4E3370A324AC2276007FA70F /* Design2.swift in Sources */,
+				4E33709924AC2106007FA70F /* TwetchersProfileView.swift in Sources */,
 				4E33706024AC2068007FA70F /* Twetch7161App.swift in Sources */,
+				4E33709C24AC2106007FA70F /* TwetchView.swift in Sources */,
+				4EDB867324F848B900C72F82 /* Latest23.swift in Sources */,
+				4E78CC1725C8E20400EB3409 /* ViewExtensions.swift in Sources */,
+				4ED4015A24EADCDA005E0E3A /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +822,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E33708A24AC2085007FA70F /* XCRemoteSwiftPackageReference "pure-swift-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeSlicing/pure-swift-ui.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.15.1;
+			};
+		};
+		4ED4014724EAD338005E0E3A /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.30.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E33708B24AC2085007FA70F /* PureSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E33708A24AC2085007FA70F /* XCRemoteSwiftPackageReference "pure-swift-ui" */;
+			productName = PureSwiftUI;
+		};
+		4ED4014824EAD338005E0E3A /* ApolloCodegenLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ED4014724EAD338005E0E3A /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloCodegenLib;
+		};
+		4ED4014A24EAD338005E0E3A /* ApolloSQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ED4014724EAD338005E0E3A /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloSQLite;
+		};
+		4ED4014C24EAD338005E0E3A /* ApolloWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ED4014724EAD338005E0E3A /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloWebSocket;
+		};
+		4ED4014E24EAD338005E0E3A /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ED4014724EAD338005E0E3A /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		4ED4015024EAD338005E0E3A /* ApolloCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4ED4014724EAD338005E0E3A /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4E33705424AC2068007FA70F /* Project object */;
 }
