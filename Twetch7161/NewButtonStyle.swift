@@ -34,7 +34,6 @@ struct NewMenuButtonStyle: ButtonStyle {
             ZStack {
                 RoundedRectangle(cornerSize: CGSize(width: 10, height: 10))
                     .fill(color(for: configuration))
-                    .shadow(color: Color.green.opacity(0.5), radius: 1, x: -1, y: -1)
                     .shadow(color: .cgDarkGray, radius: 1, x: 1, y: 1)
                 
                 

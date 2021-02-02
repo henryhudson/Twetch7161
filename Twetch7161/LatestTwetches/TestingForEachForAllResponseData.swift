@@ -27,7 +27,7 @@ struct TestingForEachForAllResponseData: View {
                       Divider()
                         .frame(height: 1.0)
                         .background(Color.white)
-                        .glow(color: .orange, radius: 0.5)
+                        .glow(color: .orange, radius: 1)
                         .padding(.horizontal)
                                     
                     }
