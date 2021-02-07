@@ -13,7 +13,7 @@ struct HeaderView: View {
     var body: some View {
         
         ZStack {
-            TwetchBoarderView(cornerRadius: Constants.screenSize.height/1000)
+            TwetchBoarderView(cornerRadius: Constants.screenSize.height / 1000)
                 .frame(width: Constants.screenSize.width * 0.98, height: Constants.screenSize.height / 6)
                 
             VStack {

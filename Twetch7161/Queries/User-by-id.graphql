@@ -1,0 +1,16 @@
+
+query UserByIdQuery {
+  userById(id: "7161") {
+    id
+    dailyRanking
+    description
+    earnedSatsCalc
+    followerCount
+    followingCount
+    icon
+    profileUrl
+    name
+  }
+}
+
+

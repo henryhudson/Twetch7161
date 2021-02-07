@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4E065B8824F200910038C56E /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E065B8724F200910038C56E /* ModalView.swift */; };
+		4E31F81C25CED7C40009285B /* User-by-id.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4E31F81B25CED7C40009285B /* User-by-id.graphql */; };
+		4E31F82925CED8920009285B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E31F82825CED8920009285B /* User.swift */; };
+		4E31F83825CEDCB10009285B /* UserByIdVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E31F83725CEDCB10009285B /* UserByIdVM.swift */; };
+		4E31F83D25CEE1B30009285B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E31F83C25CEE1B30009285B /* UserView.swift */; };
 		4E33706024AC2068007FA70F /* Twetch7161App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33705F24AC2068007FA70F /* Twetch7161App.swift */; };
 		4E33706224AC2068007FA70F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33706124AC2068007FA70F /* ContentView.swift */; };
 		4E33706424AC206A007FA70F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E33706324AC206A007FA70F /* Assets.xcassets */; };
@@ -75,6 +79,10 @@
 
 /* Begin PBXFileReference section */
 		4E065B8724F200910038C56E /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		4E31F81B25CED7C40009285B /* User-by-id.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = "User-by-id.graphql"; sourceTree = "<group>"; };
+		4E31F82825CED8920009285B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4E31F83725CEDCB10009285B /* UserByIdVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserByIdVM.swift; sourceTree = "<group>"; };
+		4E31F83C25CEE1B30009285B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		4E33705C24AC2068007FA70F /* Twetch7161.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twetch7161.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E33705F24AC2068007FA70F /* Twetch7161App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twetch7161App.swift; sourceTree = "<group>"; };
 		4E33706124AC2068007FA70F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				4E41A4782506E56000CA03E9 /* MeSlideScreen.swift */,
-				4EFE0B5F250A9EC000BBC627 /* TheUser.swift */,
 				4EA69A1424E45934002E650C /* SlideMenu.swift */,
 			);
 			path = SideMenu;
@@ -172,6 +179,17 @@
 				4EDB867224F848B800C72F82 /* Latest23.swift */,
 			);
 			path = LatestTwetches;
+			sourceTree = "<group>";
+		};
+		4E31F81625CED58B0009285B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				4EFE0B5F250A9EC000BBC627 /* TheUser.swift */,
+				4E31F82825CED8920009285B /* User.swift */,
+				4E31F83725CEDCB10009285B /* UserByIdVM.swift */,
+				4E31F83C25CEE1B30009285B /* UserView.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 		4E33705324AC2068007FA70F = {
@@ -207,9 +225,10 @@
 				4E33709724AC2106007FA70F /* HeaderButtons.swift */,
 				4E76B63025003F6C00132F52 /* TwetchSearch.swift */,
 				4E76B5EA24FEFDD000132F52 /* NewButtonStyle.swift */,
+				4E31F81625CED58B0009285B /* User */,
+				4E0AEE6D25092B8F00958992 /* SideMenu */,
 				4EFE0B61250AA39100BBC627 /* Notifications */,
 				4E0AEE6E25092C7000958992 /* LatestTwetches */,
-				4E0AEE6D25092B8F00958992 /* SideMenu */,
 				4E33708D24AC2106007FA70F /* HeaderView.swift */,
 				4E3370A224AC2276007FA70F /* Design2.swift */,
 				4ED4015724EADB92005E0E3A /* schema.json */,
@@ -290,6 +309,7 @@
 				4EDB867024F8463100C72F82 /* Latest23.graphql */,
 				4ED4015424EAD70E005E0E3A /* Queries.graphql */,
 				4EB99F3024F0615D00883C6F /* LastTenbContent.graphql */,
+				4E31F81B25CED7C40009285B /* User-by-id.graphql */,
 			);
 			path = Queries;
 			sourceTree = "<group>";
@@ -423,6 +443,7 @@
 				4EB99F3124F0615D00883C6F /* LastTenbContent.graphql in Resources */,
 				4ED4015824EADB92005E0E3A /* schema.json in Resources */,
 				4E33706724AC206A007FA70F /* Preview Assets.xcassets in Resources */,
+				4E31F81C25CED7C40009285B /* User-by-id.graphql in Resources */,
 				4ED4016024EB4069005E0E3A /* totalLikes.graphql in Resources */,
 				4EDB867124F8463100C72F82 /* Latest23.graphql in Resources */,
 				4E41A4772506E40C00CA03E9 /* MeSlideScreen.graphql in Resources */,
@@ -477,6 +498,7 @@
 				4EFE0B63250AA64F00BBC627 /* TwetchNotifications.swift in Sources */,
 				4ED4015C24EADD30005E0E3A /* TestingApollo.swift in Sources */,
 				4E33709E24AC2106007FA70F /* NewTwetchView.swift in Sources */,
+				4E31F82925CED8920009285B /* User.swift in Sources */,
 				4EB4EC4F2502EFD200FC0321 /* TestingForEachForAllResponseData.swift in Sources */,
 				4EA69A1524E45934002E650C /* SlideMenu.swift in Sources */,
 				4E3370A024AC2106007FA70F /* Constants.swift in Sources */,
@@ -493,6 +515,8 @@
 				4E33709D24AC2106007FA70F /* TwetchBoarderView.swift in Sources */,
 				4EE43C0124F0571A00D98640 /* LatestTwetches.swift in Sources */,
 				4ED4015E24EADDC4005E0E3A /* Network.swift in Sources */,
+				4E31F83825CEDCB10009285B /* UserByIdVM.swift in Sources */,
+				4E31F83D25CEE1B30009285B /* UserView.swift in Sources */,
 				4E33709824AC2106007FA70F /* HeaderView.swift in Sources */,
 				4E8834B424B8A9A000D7F7CE /* RemoteImage.swift in Sources */,
 				4E7336C224C0AEFD00941877 /* Logos.swift in Sources */,
