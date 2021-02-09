@@ -11,7 +11,6 @@ import PureSwiftUI
 struct Logos: View {
     var body: some View {
         ZStack {
-                           
             Image("TwetchSymbol")
                 .resizable()
                 .scaledToFit()

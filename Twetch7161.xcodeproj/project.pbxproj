@@ -12,6 +12,9 @@
 		4E31F82925CED8920009285B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E31F82825CED8920009285B /* User.swift */; };
 		4E31F83825CEDCB10009285B /* UserByIdVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E31F83725CEDCB10009285B /* UserByIdVM.swift */; };
 		4E31F83D25CEE1B30009285B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E31F83C25CEE1B30009285B /* UserView.swift */; };
+		4E31F88825D1FCF20009285B /* SideViewNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E31F88725D1FCF20009285B /* SideViewNavLink.swift */; };
+		4E31F88D25D201470009285B /* SideMenuNavLinkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E31F88C25D201470009285B /* SideMenuNavLinkLabel.swift */; };
+		4E31F89525D20B840009285B /* OldSideButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E31F89425D20B840009285B /* OldSideButtons.swift */; };
 		4E33706024AC2068007FA70F /* Twetch7161App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33705F24AC2068007FA70F /* Twetch7161App.swift */; };
 		4E33706224AC2068007FA70F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E33706124AC2068007FA70F /* ContentView.swift */; };
 		4E33706424AC206A007FA70F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E33706324AC206A007FA70F /* Assets.xcassets */; };
@@ -83,6 +86,9 @@
 		4E31F82825CED8920009285B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4E31F83725CEDCB10009285B /* UserByIdVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserByIdVM.swift; sourceTree = "<group>"; };
 		4E31F83C25CEE1B30009285B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		4E31F88725D1FCF20009285B /* SideViewNavLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideViewNavLink.swift; sourceTree = "<group>"; };
+		4E31F88C25D201470009285B /* SideMenuNavLinkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuNavLinkLabel.swift; sourceTree = "<group>"; };
+		4E31F89425D20B840009285B /* OldSideButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldSideButtons.swift; sourceTree = "<group>"; };
 		4E33705C24AC2068007FA70F /* Twetch7161.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twetch7161.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E33705F24AC2068007FA70F /* Twetch7161App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twetch7161App.swift; sourceTree = "<group>"; };
 		4E33706124AC2068007FA70F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -166,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				4E41A4782506E56000CA03E9 /* MeSlideScreen.swift */,
+				4E31F88725D1FCF20009285B /* SideViewNavLink.swift */,
 				4EA69A1424E45934002E650C /* SlideMenu.swift */,
 			);
 			path = SideMenu;
@@ -190,6 +197,16 @@
 				4E31F83C25CEE1B30009285B /* UserView.swift */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		4E31F88625D1FC720009285B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4E76B5EA24FEFDD000132F52 /* NewButtonStyle.swift */,
+				4E31F88C25D201470009285B /* SideMenuNavLinkLabel.swift */,
+				4E31F89425D20B840009285B /* OldSideButtons.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		4E33705324AC2068007FA70F = {
@@ -224,7 +241,7 @@
 				4E33709624AC2106007FA70F /* Constants.swift */,
 				4E33709724AC2106007FA70F /* HeaderButtons.swift */,
 				4E76B63025003F6C00132F52 /* TwetchSearch.swift */,
-				4E76B5EA24FEFDD000132F52 /* NewButtonStyle.swift */,
+				4E31F88625D1FC720009285B /* Helper */,
 				4E31F81625CED58B0009285B /* User */,
 				4E0AEE6D25092B8F00958992 /* SideMenu */,
 				4EFE0B61250AA39100BBC627 /* Notifications */,
@@ -499,6 +516,7 @@
 				4ED4015C24EADD30005E0E3A /* TestingApollo.swift in Sources */,
 				4E33709E24AC2106007FA70F /* NewTwetchView.swift in Sources */,
 				4E31F82925CED8920009285B /* User.swift in Sources */,
+				4E31F88825D1FCF20009285B /* SideViewNavLink.swift in Sources */,
 				4EB4EC4F2502EFD200FC0321 /* TestingForEachForAllResponseData.swift in Sources */,
 				4EA69A1524E45934002E650C /* SlideMenu.swift in Sources */,
 				4E3370A024AC2106007FA70F /* Constants.swift in Sources */,
@@ -507,12 +525,14 @@
 				4E41A4792506E56000CA03E9 /* MeSlideScreen.swift in Sources */,
 				4E33709F24AC2106007FA70F /* NewTwetchButton.swift in Sources */,
 				4E33709A24AC2106007FA70F /* TwetchersUserName.swift in Sources */,
+				4E31F89525D20B840009285B /* OldSideButtons.swift in Sources */,
 				4E33706224AC2068007FA70F /* ContentView.swift in Sources */,
 				4E76B5EB24FEFDD000132F52 /* NewButtonStyle.swift in Sources */,
 				4EFE0B60250A9EC000BBC627 /* TheUser.swift in Sources */,
 				4E76B63125003F6C00132F52 /* TwetchSearch.swift in Sources */,
 				4E33709B24AC2106007FA70F /* TwetchButtons.swift in Sources */,
 				4E33709D24AC2106007FA70F /* TwetchBoarderView.swift in Sources */,
+				4E31F88D25D201470009285B /* SideMenuNavLinkLabel.swift in Sources */,
 				4EE43C0124F0571A00D98640 /* LatestTwetches.swift in Sources */,
 				4ED4015E24EADDC4005E0E3A /* Network.swift in Sources */,
 				4E31F83825CEDCB10009285B /* UserByIdVM.swift in Sources */,

@@ -13,7 +13,6 @@ struct NewButtonStyle: View {
             Color.blue
             
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                
                 HStack {
                     Image(systemName: "gearshape")
                     Text("Settings")
@@ -30,27 +29,20 @@ struct NewMenuButtonStyle: ButtonStyle {
     
     func makeBody(configuration: Configuration) -> some View {
         HStack {
-            
             ZStack {
                 RoundedRectangle(cornerSize: CGSize(width: 10, height: 10))
                     .fill(color(for: configuration))
                     .shadow(color: .cgDarkGray, radius: 1, x: 1, y: 1)
                 
-                
                 configuration.label
                     .padding(.all, 10)
                     .foregroundColor(.white)
-                    //.textCase(.uppercase)
                     .font(Font.subheadline.bold() )
-                    
             }
-                
         }
         .fixedSize()
         .animation(nil)
-        
     }
-    
     func color(for configuration: Configuration) -> Color {
         configuration.isPressed ? onColor : offColor
     }

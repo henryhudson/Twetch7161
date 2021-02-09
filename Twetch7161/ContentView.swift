@@ -13,23 +13,17 @@ struct ContentView: View {
     @State private var itemNumber = 0
     
     var body: some View {
-        ZStack{
-            ScrollView {
-                ForEach (latest23.bContents, id: \.asString ){ item in
-                    VStack(spacing: 3) {
-                        TwetchView(bContent: item.asString ,
-                                   userNumber:  latest23.userIds[4]!)
-                      
-                      Divider()
-                                    
-                    }
-                }
+        NavigationView {
+            ZStack{
+                TestingForEachForAllResponseData()
+                
+                NewTwetchButton()
+                
+                SlideMenu()
             }
-            
-            NewTwetchButton()
-            
-            SlideMenu()
+            .navigationBarHidden(true)
         }
+        
     
     }
 }

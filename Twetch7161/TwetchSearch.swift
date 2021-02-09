@@ -11,8 +11,7 @@ struct TwetchSearch: View {
     @State private var searchQuery = ""
     var body: some View {
         ZStack {
-            Color.blue
-            
+            LinearGradient(gradient: Gradient(colors: [Color.red, Color.orange, Color.yellow]), startPoint: .leading, endPoint: .trailing)
             
             VStack(spacing: 0) {
                 Image("TwetchLogo")
@@ -24,10 +23,7 @@ struct TwetchSearch: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle() )
                     .offset(x: 0, y: -UIScreen.main.bounds.height * 0.1)
                     .padding()
-
-                    
-                    
-                    
+ 
             }
         }
         .edgesIgnoringSafeArea(.all)
