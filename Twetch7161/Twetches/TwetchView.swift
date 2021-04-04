@@ -11,7 +11,7 @@ import SwiftUI
 struct TwetchView: View, Identifiable {
     var id = UUID()
     
-    @State var bContent: String = "this is a twetch it will show this many lines does it need more space, what is going on why always me"
+    @State var bContent: String = "this is a twetch it will show this many lines does it need more space, what is going on why always me fdfd fd dsjklfdsajkfdls;ajfdksa;jfdksal;jfdksal;jfdkjdsj;lsdkjfkljf kd;sjakfdsajkfd;ajfdk afj kl;fdjskal;dj jkljjks; asdjkf ;ja fjdks;jkfeyhfkdjl;s "
     @State var userNumber: String = "@user_number"
     @State var userName: String = "Henry Hudson"
     @State var profileIcon: String = "https://cimg.twetch.com/avatars/2020/08/12/226d0e97b182d2bdf82ad989335b1c5a94378953d1f0f6f0c91dae23c329e29c.ba0487ef-ebe3-4fbd-ab47-56865eebc8d0"
@@ -25,19 +25,29 @@ struct TwetchView: View, Identifiable {
             
             VStack(alignment: .leading) {
                 HStack {
-                    TwetchersProfileView(profileSize: 42, profileIcon: profileIcon)
+                    TwetchersProfileView(profileSize: 42,
+                                         profileIcon: profileIcon)
                         .padding(2)
-                    TwetchersUserName(twetchUserName: userName, twetchUserNumber: userNumber)
+                    TwetchersUserName(twetchUserName: userName,
+                                      twetchUserNumber: userNumber)
                         
                     //Spacer()
     
                 }
                 
                 Text(bContent)
+                    .lineLimit(nil)
                     .padding(8)
+                    .padding(.leading, 16)
                     
-                Spacer()
-                TwetchButtons(liked: false, commented: false, branched: false, numberOfLikes: 0, numberOfBranches: Int(branchCount)!, numberOfComments: 0)
+                
+            
+                TwetchButtons(liked: false,
+                              commented: false,
+                              branched: false,
+                              numberOfLikes: 0,
+                              numberOfBranches: Int(branchCount)!,
+                              numberOfComments: 0)
             }
             .padding(.horizontal, 8)
             

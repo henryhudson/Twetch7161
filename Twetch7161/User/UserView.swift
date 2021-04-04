@@ -12,13 +12,45 @@ struct UserView: View {
     
     
     var body: some View {
-        HStack {
-            //RemoteImage(url: user.profilePhoto, loading: Image(systemName: "timelapse"), failure: Image(systemName: "flame.fill"))
-            VStack {
+        VStack {
+            RemoteImage(url: user.profilePhoto,
+                        loading: Image(systemName: "timelapse"),
+                        failure: Image(systemName: "flame.fill"))
+                .frame(100)
+                .clipCircle()
+            
+            Group {
                 Text(user.name)
-                Text(user.id)
+                    .font(.title)
+                
+                HStack(spacing: 0) {
+                    Text("@")
+                    Text(user.id)
+                }
             }
+            
+            Text(user.description)
+                .padding(.horizontal)
+            
+            Link(destination: URL(string: user.profileURL)!, label: {
+                Text("Profile link")
+            })
+            
+            HStack {
+                Text(user.following)
+                    .bold()
+                Text("Following")
+                
+                Text(user.followers)
+                    .bold()
+                Text("Followers")
+                
+            }
+            
+            Spacer()
+            
         }
+        .padding(.horizontal)
     }
 }
 

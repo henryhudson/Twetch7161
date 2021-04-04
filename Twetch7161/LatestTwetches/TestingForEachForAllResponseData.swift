@@ -24,11 +24,11 @@ struct TestingForEachForAllResponseData: View {
                                    branchCount: latest23.branchCount[item.asInt]!,
                                    likeCount: latest23.likeCount[item.asInt]!)
                       
-                      Divider()
-                        .frame(height: 1.0)
-                        .background(Color.white)
-                        .glow(color: .orange, radius: 1)
-                        .padding(.horizontal)
+//                      Divider()
+//                        .frame(height: 1.0)
+//                        .background(Color.white)
+//                        .glow(color: .orange, radius: 1)
+//                        .padding(.horizontal)
                                     
                     }
                 }

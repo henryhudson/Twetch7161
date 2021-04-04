@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E065B8824F200910038C56E /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E065B8724F200910038C56E /* ModalView.swift */; };
 		4E31F81C25CED7C40009285B /* User-by-id.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4E31F81B25CED7C40009285B /* User-by-id.graphql */; };
 		4E31F82925CED8920009285B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E31F82825CED8920009285B /* User.swift */; };
 		4E31F83825CEDCB10009285B /* UserByIdVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E31F83725CEDCB10009285B /* UserByIdVM.swift */; };
@@ -35,6 +34,8 @@
 		4E3370A324AC2276007FA70F /* Design2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3370A224AC2276007FA70F /* Design2.swift */; };
 		4E41A4772506E40C00CA03E9 /* MeSlideScreen.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 4E41A4762506E40C00CA03E9 /* MeSlideScreen.graphql */; };
 		4E41A4792506E56000CA03E9 /* MeSlideScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41A4782506E56000CA03E9 /* MeSlideScreen.swift */; };
+		4E41E3F525EB119000B97000 /* SwiftBSV in Frameworks */ = {isa = PBXBuildFile; productRef = 4E41E3F425EB119000B97000 /* SwiftBSV */; };
+		4E41E3FB25EB123500B97000 /* SwiftBSVTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E41E3FA25EB123500B97000 /* SwiftBSVTest.swift */; };
 		4E72D13425150425002BE3A3 /* NotificationStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72D13325150425002BE3A3 /* NotificationStuff.swift */; };
 		4E7336C224C0AEFD00941877 /* Logos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7336C124C0AEFD00941877 /* Logos.swift */; };
 		4E76B5EB24FEFDD000132F52 /* NewButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5EA24FEFDD000132F52 /* NewButtonStyle.swift */; };
@@ -81,7 +82,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4E065B8724F200910038C56E /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		4E31F81B25CED7C40009285B /* User-by-id.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = "User-by-id.graphql"; sourceTree = "<group>"; };
 		4E31F82825CED8920009285B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4E31F83725CEDCB10009285B /* UserByIdVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserByIdVM.swift; sourceTree = "<group>"; };
@@ -114,6 +114,7 @@
 		4E3370A224AC2276007FA70F /* Design2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design2.swift; sourceTree = "<group>"; };
 		4E41A4762506E40C00CA03E9 /* MeSlideScreen.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = MeSlideScreen.graphql; sourceTree = "<group>"; };
 		4E41A4782506E56000CA03E9 /* MeSlideScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeSlideScreen.swift; sourceTree = "<group>"; };
+		4E41E3FA25EB123500B97000 /* SwiftBSVTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBSVTest.swift; sourceTree = "<group>"; };
 		4E72D13325150425002BE3A3 /* NotificationStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationStuff.swift; sourceTree = "<group>"; };
 		4E7336C124C0AEFD00941877 /* Logos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logos.swift; sourceTree = "<group>"; };
 		4E76B5EA24FEFDD000132F52 /* NewButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewButtonStyle.swift; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E41E3F525EB119000B97000 /* SwiftBSV in Frameworks */,
 				4ED4014F24EAD338005E0E3A /* Apollo in Frameworks */,
 				4E33708C24AC2085007FA70F /* PureSwiftUI in Frameworks */,
 				4ED4015124EAD338005E0E3A /* ApolloCore in Frameworks */,
@@ -234,13 +236,13 @@
 			children = (
 				4ED4015924EADCDA005E0E3A /* API.swift */,
 				4ED4015B24EADD30005E0E3A /* TestingApollo.swift */,
-				4E065B8724F200910038C56E /* ModalView.swift */,
 				4ED4015D24EADDC4005E0E3A /* Network.swift */,
 				4E33705F24AC2068007FA70F /* Twetch7161App.swift */,
 				4E33706124AC2068007FA70F /* ContentView.swift */,
 				4E33709624AC2106007FA70F /* Constants.swift */,
 				4E33709724AC2106007FA70F /* HeaderButtons.swift */,
 				4E76B63025003F6C00132F52 /* TwetchSearch.swift */,
+				4E41E3F925EB121300B97000 /* SwiftBSV */,
 				4E31F88625D1FC720009285B /* Helper */,
 				4E31F81625CED58B0009285B /* User */,
 				4E0AEE6D25092B8F00958992 /* SideMenu */,
@@ -299,6 +301,14 @@
 				4E33709524AC2106007FA70F /* NewTwetchButton.swift */,
 			);
 			path = Twetches;
+			sourceTree = "<group>";
+		};
+		4E41E3F925EB121300B97000 /* SwiftBSV */ = {
+			isa = PBXGroup;
+			children = (
+				4E41E3FA25EB123500B97000 /* SwiftBSVTest.swift */,
+			);
+			path = SwiftBSV;
 			sourceTree = "<group>";
 		};
 		4E78CC1525C8E19A00EB3409 /* Extensions */ = {
@@ -364,6 +374,7 @@
 				4ED4014C24EAD338005E0E3A /* ApolloWebSocket */,
 				4ED4014E24EAD338005E0E3A /* Apollo */,
 				4ED4015024EAD338005E0E3A /* ApolloCore */,
+				4E41E3F425EB119000B97000 /* SwiftBSV */,
 			);
 			productName = Twetch7161;
 			productReference = 4E33705C24AC2068007FA70F /* Twetch7161.app */;
@@ -439,6 +450,7 @@
 			packageReferences = (
 				4E33708A24AC2085007FA70F /* XCRemoteSwiftPackageReference "pure-swift-ui" */,
 				4ED4014724EAD338005E0E3A /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				4E41E3F325EB119000B97000 /* XCRemoteSwiftPackageReference "SwiftBSV" */,
 			);
 			productRefGroup = 4E33705D24AC2068007FA70F /* Products */;
 			projectDirPath = "";
@@ -511,7 +523,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E065B8824F200910038C56E /* ModalView.swift in Sources */,
 				4EFE0B63250AA64F00BBC627 /* TwetchNotifications.swift in Sources */,
 				4ED4015C24EADD30005E0E3A /* TestingApollo.swift in Sources */,
 				4E33709E24AC2106007FA70F /* NewTwetchView.swift in Sources */,
@@ -537,6 +548,7 @@
 				4ED4015E24EADDC4005E0E3A /* Network.swift in Sources */,
 				4E31F83825CEDCB10009285B /* UserByIdVM.swift in Sources */,
 				4E31F83D25CEE1B30009285B /* UserView.swift in Sources */,
+				4E41E3FB25EB123500B97000 /* SwiftBSVTest.swift in Sources */,
 				4E33709824AC2106007FA70F /* HeaderView.swift in Sources */,
 				4E8834B424B8A9A000D7F7CE /* RemoteImage.swift in Sources */,
 				4E7336C224C0AEFD00941877 /* Logos.swift in Sources */,
@@ -708,7 +720,7 @@
 				DEVELOPMENT_TEAM = CW6X9K8LMH;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Twetch7161/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -730,7 +742,7 @@
 				DEVELOPMENT_TEAM = CW6X9K8LMH;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Twetch7161/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -876,6 +888,14 @@
 				minimumVersion = 1.15.1;
 			};
 		};
+		4E41E3F325EB119000B97000 /* XCRemoteSwiftPackageReference "SwiftBSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wtsnz/SwiftBSV.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
 		4ED4014724EAD338005E0E3A /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
@@ -891,6 +911,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4E33708A24AC2085007FA70F /* XCRemoteSwiftPackageReference "pure-swift-ui" */;
 			productName = PureSwiftUI;
+		};
+		4E41E3F425EB119000B97000 /* SwiftBSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E41E3F325EB119000B97000 /* XCRemoteSwiftPackageReference "SwiftBSV" */;
+			productName = SwiftBSV;
 		};
 		4ED4014824EAD338005E0E3A /* ApolloCodegenLib */ = {
 			isa = XCSwiftPackageProductDependency;

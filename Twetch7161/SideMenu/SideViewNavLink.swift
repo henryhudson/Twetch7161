@@ -13,49 +13,57 @@ struct SideViewNavLinks: View {
             NavigationLink(
                 destination: Text("Home"),
                 label: {
-                    SideMenuNavLinkLabel(title: "Home", iconImage: "house")
+                    SideMenuNavLinkLabel(title: "Home",
+                                         iconImage: "house")
             })
             
             NavigationLink(
-                destination: Text("my profile"),
+                destination: UserView(),
                 label: {
-                    SideMenuNavLinkLabel(title: "Profile", iconImage: "person.crop.circle")
+                    SideMenuNavLinkLabel(title: "Profile",
+                                         iconImage: "person.crop.circle")
             })
             
             NavigationLink(
                 destination: Text("Notifications"),
                 label: {
-                    SideMenuNavLinkLabel(title: "Notifications", iconImage: "bell")
+                    SideMenuNavLinkLabel(title: "Notifications",
+                                         iconImage: "bell")
             })
             
             NavigationLink(
                 destination: Text("Leaderboard"),
                 label: {
-                    SideMenuNavLinkLabel(title: "Leaderboard", iconImage: "bitcoinsign.circle")
+                    SideMenuNavLinkLabel(title: "Leaderboard",
+                                         iconImage: "bitcoinsign.circle")
             })
             
             NavigationLink(
                 destination: Text("Features"),
                 label: {
-                    SideMenuNavLinkLabel(title: "Features", iconImage: "lock")
+                    SideMenuNavLinkLabel(title: "Features",
+                                         iconImage: "lock")
             })
             
             NavigationLink(
                 destination: Text("Messages"),
                 label: {
-                    SideMenuNavLinkLabel(title: "Messages", iconImage: "envelope")
+                    SideMenuNavLinkLabel(title: "Messages",
+                                         iconImage: "envelope")
             })
             
             NavigationLink(
                 destination: TwetchSearch(),
                 label: {
-                    SideMenuNavLinkLabel(title: "Search", iconImage: "magnifyingglass")
+                    SideMenuNavLinkLabel(title: "Search",
+                                         iconImage: "magnifyingglass")
             })
             
             NavigationLink(
                 destination: Text("Settings"),
                 label: {
-                    SideMenuNavLinkLabel(title: "Settings", iconImage: "gearshape")
+                    SideMenuNavLinkLabel(title: "Settings",
+                                         iconImage: "gearshape")
             })
         }
     }

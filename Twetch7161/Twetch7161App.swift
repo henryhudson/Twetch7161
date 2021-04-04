@@ -15,8 +15,10 @@ struct Twetch7161App: App {
         WindowGroup {
             //TestingForEachForAllResponseData()
             //NotificationStuff(notificationCenter: notificationCenter)
-            ContentView()
+//            ContentView()
             //TestingForEachForAllResponseData()
+//            SwiftBSVTest()
+            ContentView()
         }
     }
 }
